@@ -3,7 +3,7 @@ const Newsletter = () => {
     <>
       <div className="p-8 grid md:grid-cols-2 mx-auto max-w-[1200px]">
         <div className="text-white flex flex-col justify-center items-center md:items-start">
-          <h1 className="md:text-3xl sm:text-2xl text-xl mb-2 font-bold">
+          <h1 className="md:text-4xl sm:text-2xl text-xl mb-2 font-bold">
             Want tips & tricks to improve your flow
           </h1>
           <p classname="text-[5px]">Sign up to our newsletter and stay up to date</p>
