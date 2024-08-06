@@ -6,7 +6,7 @@ const Newsletter = () => {
           <h1 className="md:text-3xl sm:text-2xl text-xl mb-2 font-bold">
             Want tips & tricks to improve your flow
           </h1>
-          <p classname="text-sm">Sign up to our newsletter and stay up to date</p>
+          <p classname="text-[5px]">Sign up to our newsletter and stay up to date</p>
         </div>
         <div className="flex flex-col p-4">
           <div className="flex flex-col md:flex-row items-center justify-center p-3">
