@@ -8,10 +8,10 @@ import {
 const Footer = () => {
   return (
     <>
-      <div className="grid md:grid-cols-2 gap-8 max-w-[1200px] mx-auto  p-8">
-        <div className="flex flex-col">
+      <div className="grid md:grid-cols-2 gap-8 w-full mx-auto  p-8">
+        <div className="flex flex-col ">
           <h1 className="text-[#00df9a] text-3xl">REACT</h1>
-          <p className="text-white mb-5">
+          <p className="text-white mb-5 box-border">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
             quis expedita nisi non exercitationem sequi omnis voluptatem unde
             dolor quaerat.
@@ -39,6 +39,8 @@ const Footer = () => {
             <li className="text-sm mb-1">Commerce</li>
             <li className="text-sm mb-1">Insights</li>
           </ul>
+        </div>
+        <div className="text-white p-5">
           <ul>
             <li className="text-xl font-bold mb-3">Solutions</li>
             <li className="text-sm mb-1">Analytics</li>
